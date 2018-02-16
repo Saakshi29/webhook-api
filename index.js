@@ -250,7 +250,7 @@ var general='Teaching in the university is achieved through various specialized 
 		
 		
 	
-	else if(req.body.result.parameters.facili=="barch")
+	else if(req.body.result.parameters.course=="barch")
   {
   
   
@@ -260,7 +260,7 @@ var general='Teaching in the university is achieved through various specialized 
   source: "Webhook",
   });
   }	  
-  else if(req.body.result.parameters.facili=="mca")
+  else if(req.body.result.parameters.course=="mca")
   {
   
   
@@ -270,7 +270,7 @@ var general='Teaching in the university is achieved through various specialized 
   source: "Webhook",
   });
   }
-  else if(req.body.result.parameters.facili=="mtech")
+  else if(req.body.result.parameters.course=="mtech")
   {
   
   
@@ -279,7 +279,7 @@ var general='Teaching in the university is achieved through various specialized 
   displayText: mtech,
   source: "Webhook",
   });}
-  else if(req.body.result.parameters.facili=="phd")
+  else if(req.body.result.parameters.course=="phd")
   {
   
   
@@ -315,7 +315,7 @@ var general='Teaching in the university is achieved through various specialized 
 		
 		
 	
-	else if(req.body.result.parameters.facili=="barch")
+	else if(req.body.result.parameters.course=="barch")
   {
   
   
@@ -325,7 +325,7 @@ var general='Teaching in the university is achieved through various specialized 
   source: "Webhook",
   });
   }	  
-  else if(req.body.result.parameters.facili=="mca")
+  else if(req.body.result.parameters.course=="mca")
   {
   
   
@@ -335,7 +335,7 @@ var general='Teaching in the university is achieved through various specialized 
   source: "Webhook",
   });
   }
-  else if(req.body.result.parameters.facili=="mtech")
+  else if(req.body.result.parameters.course=="mtech")
   {
   
   
@@ -344,7 +344,7 @@ var general='Teaching in the university is achieved through various specialized 
   displayText: mtech,
   source: "Webhook",
   });}
-  else if(req.body.result.parameters.facili=="phd")
+  else if(req.body.result.parameters.course=="phd")
   {
   
   
